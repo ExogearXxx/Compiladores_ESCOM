@@ -1,0 +1,14 @@
+digraph AFN{
+rankdir = LR;
+node[shape=circle, style="filled", fixedsize=true,width=0.2, color="#FFF7A8", fontsize=8]
+edge [ fontname=Arial, fontcolor=blue, fontsize=8 ];node [name = "1"];
+1 -> 2 [label = "a", color="red"]
+5 -> 5 [label = "&epsilon;", color="red"]
+5 -> 1 [label = "&epsilon;", color="red"]
+4 -> 3 [label = "&epsilon;", color="red"]
+4 -> 6 [label = "&epsilon;", color="red"]
+6 -> 6 [label = "&epsilon;", color="red"]
+2 -> 6 [label = "&epsilon;", color="red"]
+3 -> 4 [label = "b", color="red"]
+5 -> 3 [label = "&epsilon;", color="red"]
+}

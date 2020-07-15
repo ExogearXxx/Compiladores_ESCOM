@@ -1,0 +1,6 @@
+digraph AFN{
+rankdir = LR;
+node[shape=circle, style="filled", fixedsize=true,width=0.2, color="#FFF7A8", fontsize=8]
+edge [ fontname=Arial, fontcolor=blue, fontsize=8 ];node [name = "1"];
+3 -> 4 [label = "b", color="red"]
+}
